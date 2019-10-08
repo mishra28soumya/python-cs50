@@ -1,0 +1,14 @@
+ <!-- index.html is going to be based on layout.html-->
+{% extends "layout.html" %}
+
+{%  block heading %}
+     My Second Page
+{% endblock %}
+
+{% block body %}
+    <p>
+        la bla bla
+    </p>
+
+    <a href="{{ url_for('index') }}">Go back</a>
+{% endblock %}
