@@ -1,0 +1,7 @@
+$color:green;
+//to run $ sass <name_of_scss_file> <name_of_css_file>
+ul#styleList {
+    list-style-type: square;
+    font-size: 14px;
+    color: $color;
+}
